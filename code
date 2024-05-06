@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/iniciosesion"
+    android:gravity="center"
+    android:padding="15dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:src="@drawable/mapa" />
+        <EditText
+            android:layout_width="346dp"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:hint="INICIAR SESION"
+            android:textColor="@color/black"/>
+
+
+        <EditText
+            android:layout_width="346dp"
+            android:layout_height="wrap_content"
+            android:hint="NOMBRE DE USUARIO / @CORREO"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="10sp"/>
+
+        <EditText
+            android:layout_width="346dp"
+            android:layout_height="40dp"
+            android:hint="Nombre"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:background="@drawable/rounded_corner"
+            android:padding="18dp"
+            android:inputType="text"
+            android:id="@+id/Nombre_input"/>
+
+        <EditText
+            android:layout_width="346dp"
+            android:layout_height="wrap_content"
+            android:hint="CONTRASEÑA"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="10sp"/>
+
+        <EditText
+            android:layout_width="346dp"
+            android:layout_height="40dp"
+            android:hint="Contraseña"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:background="@drawable/rounded_corner"
+            android:padding="18dp"
+            android:inputType="textPassword"
+            android:id="@+id/contraseña_input"/>
+
+        <Button
+            android:layout_width="346dp"
+            android:layout_height="50dp"
+            android:text="Iniciar Sesion"
+            android:backgroundTint="@color/black"
+            android:padding="2dp"
+            android:layout_marginTop="50dp"
+            android:id="@+id/login_btn"/>
+
+      <TextureView
+          android:layout_width="346dp"
+          android:layout_height="50dp"
+          android:text="Registrarse"
+          android:textColor="@color/white"
+          android:textColorHint="@color/white"
+          android:textSize="10sp"
+          android:padding="2dp" />
+
+
+
+
+</LinearLayout>
+
+
+        
+
+</RelativeLayout>
