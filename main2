@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/iniciosesion"
+    android:gravity="center"
+    android:padding="15dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+
+        <EditText
+            android:layout_width="346dp"
+            android:layout_height="150dp"
+            android:gravity="center"
+            android:hint="REGISTRO"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"/>
+
+
+
+        <EditText
+            android:layout_width="346dp"
+            android:layout_height="wrap_content"
+            android:hint="NOMBRE"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="10sp"/>
+
+        <EditText
+            android:layout_width="346dp"
+            android:layout_height="40dp"
+            android:hint="Nombre"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:background="@drawable/rounded_corner"
+            android:padding="18dp"
+            android:inputType="text"
+            android:id="@+id/Nombre_input"/>
+
+        <EditText
+            android:layout_width="346dp"
+            android:layout_height="wrap_content"
+            android:hint="CORREO"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="10sp"/>
+
+        <EditText
+            android:layout_width="346dp"
+            android:layout_height="40dp"
+            android:hint="Contraseña"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:background="@drawable/rounded_corner"
+            android:padding="18dp"
+            android:inputType="textPassword"
+            android:id="@+id/contraseña_input"/>
+        <EditText
+            android:layout_width="346dp"
+            android:layout_height="wrap_content"
+            android:hint="CONTRASEÑA"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="10sp"/>
+        <EditText
+            android:layout_width="346dp"
+            android:layout_height="40dp"
+            android:hint="contraseña"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:background="@drawable/rounded_corner"
+            android:padding="18dp"
+            android:inputType="text"
+            android:id="@+id/Nombre_input"/>
+        <EditText
+            android:layout_width="346dp"
+            android:layout_height="wrap_content"
+            android:hint="CONFIRMA CONTRASEÑA"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="10sp"/>
+        <EditText
+            android:layout_width="346dp"
+            android:layout_height="40dp"
+            android:hint="contraseña"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:background="@drawable/rounded_corner"
+            android:padding="18dp"
+            android:inputType="text"
+            android:id="@+id/Nombre_input"/>
+
+
+
+
+        <Button
+            android:layout_width="346dp"
+            android:layout_height="50dp"
+            android:text="Registrate"
+            android:backgroundTint="@color/black"
+            android:padding="2dp"
+            android:layout_marginTop="50dp"
+            android:id="@+id/login_btn"/>
+
+
+
+
+
+
+</LinearLayout>
+
+
+        
+
+</RelativeLayout>
